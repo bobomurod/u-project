@@ -9,6 +9,10 @@
   "author": "Bobomurod",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "circular-json": "^0.5.5",
+    "express": "^4.16.3",
+    "json-stringify-safe": "^5.0.1",
     "mysql": "^2.15.0"
   }
 }
