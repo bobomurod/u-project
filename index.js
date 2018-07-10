@@ -6,3 +6,11 @@ var connection = mysql.createConnection({
     database    :   'uproject'
 })
 
+connection.connect()
+connection.query('SELECT * FROM prices', function(error, result, fields) {
+    if (error) throw error;
+    console.log(result[0].solution)
+});
+
+
+
