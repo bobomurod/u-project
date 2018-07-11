@@ -16,9 +16,11 @@ var priceApp = function () {
             }
             console.log('db connected', connection.threadId)
         })
+
         connection.query('SELECT * FROM prices ORDER BY ID DESC LIMIT 1', function (error,results,fields) {
             myQuery = results[0]
         })
+        
         connection.end()
         return myQuery
         
