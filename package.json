@@ -9,11 +9,13 @@
   "author": "Bobomurod",
   "license": "ISC",
   "dependencies": {
+    "assert": "^1.4.1",
     "body-parser": "^1.18.3",
     "circular-json": "^0.5.5",
     "express": "^4.16.3",
     "faker": "^4.1.0",
     "json-stringify-safe": "^5.0.1",
+    "mongodb": "^3.1.1",
     "mysql": "^2.15.0"
   }
 }
