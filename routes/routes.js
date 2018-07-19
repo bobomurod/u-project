@@ -4,7 +4,7 @@ var JSON = require('circular-json')
 
 
 var appRouter = function(app) {
-    app.get('/', function (request, response) {
+    app.get('/', function (request, response, next) {
         // response.status(200).json(JSON.stringify(price()))
         response.status(200).json(price())
     })
